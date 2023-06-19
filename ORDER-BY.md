@@ -16,7 +16,7 @@ DSC majejąco
 ```
 SELECT * 
 FROM Employees 
-ORDER BY LastName
+ORDER BY LastName;
 ```
 
 - sortowanie po nazwusku 

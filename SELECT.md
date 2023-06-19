@@ -117,7 +117,7 @@ LIKE 'B%';
 SELECT * 
 FROM Customers 
 WHERE City 
-LIKE '%B'
+LIKE '%B';
 ```
 - kończy się na b
 
