@@ -24,7 +24,7 @@ BETWEEN '1996-07-01' AND'1996-07-10';
 SELECT * 
 FROM Orders 
 WHERE EmployeeID 
-BETWEEN 1 AND 4
+BETWEEN 1 AND 4;
 ```
 
 - id pomiędzy 1 a 4 
