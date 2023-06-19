@@ -7,7 +7,7 @@ FROM Customers
 GROUP BY Country
 HAVING COUNT(CustomerID) > 5;
 ```
-Grupuje listę customers z danego kraju gdzie customerów było więcej niż 5
+- Grupuje listę customers z danego kraju gdzie customerów było więcej niż 5
 
 
 ```
@@ -18,7 +18,7 @@ HAVING COUNT(CustomerID) > 5
 ORDER BY COUNT(CustomerID) DESC;
 ```
 
-Grupuję listę customers z danego kraju gdzie kustomerów było więcej niż 5 malejąco 
+- Grupuję listę customers z danego kraju gdzie kustomerów było więcej niż 5 malejąco 
 
 
 ```
@@ -30,7 +30,7 @@ ON Orders.EmployeeID = Employees.EmployeeID
 GROUP BY LastName
 HAVING COUNT(Orders.OrderID) > 10;
 ```
-Grupuję listę pracowników z większą liczbą zamówień niż 10
+- Grupuję listę pracowników z większą liczbą zamówień niż 10
 plus zmiana nazwy kolumny 
 
 
@@ -44,5 +44,5 @@ OR LastName = 'Fuller'
 GROUP BY LastName
 HAVING COUNT(Orders.OrderID) > 25;
 ```
-to samo dodając konktetne nazwisko 
+- to samo dodając konktetne nazwisko 
 

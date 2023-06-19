@@ -15,7 +15,7 @@ ON Orders.EmployeeID = Employees.EmployeeID
 ORDER BY Orders.OrderID;
 ```
 
-Bierze wszystko z tabelki Employees i dopasowuje do orders id jeśli nie ma jakiegoś numeru orderu wpisuje null 
+- wszystko z tabelki Employees i dopasowuje do orders id jeśli nie ma jakiegoś numeru orderu wpisuje null 
 
 ```
 SELECT *
@@ -24,4 +24,4 @@ RIGHT JOIN Customers
 ON Orders.CustomerID=Customers.CustomerID;
 ```
 
-wszystko z tabelki customers i wspólne z tabelki orders 
+- wszystko z tabelki customers i wspólne z tabelki orders 

@@ -19,7 +19,7 @@ FROM Employees
 ORDER BY LastName
 ```
 
-sortowanie po nazwusku 
+- sortowanie po nazwusku 
 
 aby dobrze posortować gdy są dwie osoby o tym samym nazwisku dodajemy firstname
 
@@ -35,7 +35,7 @@ FROM Employees
 ORDER BY LastName DESC, FirstName DESC;
 ```
 
-jeśli chcemy aby i imię i nazwisko było posortowane malejąco dodajemy desc 2 razy
+- jeśli chcemy aby i imię i nazwisko było posortowane malejąco dodajemy desc 2 razy
 
 
 ```
@@ -45,7 +45,7 @@ ORDER BY Country, CustomerName;
 
 ```
 
-posortuje państwa a jeśli będą powtórki dodatkowo przez customername
+- posortuje państwa a jeśli będą powtórki dodatkowo przez customername
 
 
 ```
@@ -54,4 +54,4 @@ FROM Customers
 ORDER BY Country ASC, CustomerName DESC;
 ``` 
 
-kraj rosnąco customername malejąco
+- kraj rosnąco customername malejąco

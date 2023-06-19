@@ -5,17 +5,17 @@
 ```
 SELECT ProductID, ProductName, MAX(SupplierID) - MIN(CategoryID) 
 As Odejmowanie ,MAX(SupplierID), MIN(CategoryID) FROM Products 
-Group by ProductID
+Group by ProductID;
 ```
 
 
 ```
 SELECT COUNT(CustomerID),Country
 FROM Customers 
-GROUP BY Country
+GROUP BY Country;
 ```
 
-przelicza ilu jest customerów z danego kraju 
+- przelicza ilu jest customerów z danego kraju 
 
 
 ```
@@ -29,7 +29,7 @@ Count (CustomersID)           Country
 11                           France
 11                           Germany
 ```
-Podlicza ilu jest customerów z danego kraju malejąco
+- Podlicza ilu jest customerów z danego kraju malejąco
 
 
 ```
@@ -42,7 +42,7 @@ ON Orders.ShipperID = Shippers.ShipperID
 GROUP BY ShipperName;
 ```
 
-podlicza ile zamówień było zrobionych przez danego shippername zmieniając nazwę na numbersoforders
+- podlicza ile zamówień było zrobionych przez danego shippername zmieniając nazwę na numbersoforders
 
 
 ```

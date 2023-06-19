@@ -14,4 +14,4 @@ LEFT JOIN Orders
 ON Customers.CustomerID = Orders.CustomerID
 ORDER BY Customers.CustomerName;
 ```
-bierze CustomersName wszystko i dane z innej tabelki które są wspólne a tych których nie ma zastępuje słowem null
+- CustomersName wszystko i dane z innej tabelki które są wspólne, a tych których nie ma zastępuje słowem null
